@@ -1,7 +1,7 @@
 [tool.poetry]
-name = "discord-python-hackpack"
+name = "discord_python_hackpack"
 version = "0.1.0"
-description = "ACM Discord Python Hackpack"
+description = "Discord Python Hackpack"
 authors = []
 readme = "README.md"
 
