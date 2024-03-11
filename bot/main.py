@@ -16,12 +16,12 @@ bot = Bot(command_prefix="!", intents=Intents.all())
 hello = Hello()
 
 @bot.event
-def on_member_join(member):
+async def on_member_join(member):
     """Runs when a new member joins the Discord"""
     print(f"New Member Joined! Member Info: {member}")
 
 @bot.event
-def on_ready():
+async def on_ready():
     """Run when the bot initially loads"""
     try:
         hello.print_message("Hello World")
